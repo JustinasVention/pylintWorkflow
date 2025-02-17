@@ -2,9 +2,9 @@ name: Pylint Check (Reusable)
 
 on:
   workflow_call:
-    secrets:
-      token:
-        required: true
+    # secrets:
+    #   token:
+    #     required: true
 
 jobs:
   lint:
